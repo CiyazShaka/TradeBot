@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ScreenshotTaker</name>
+    </assembly>
+    <members>
+        <member name="T:ScreenshotTaker.Taker">
+            <summary>
+            Main class
+            </summary>
+        </member>
+        <member name="M:ScreenshotTaker.Taker.GetPath">
+            <summary>
+            Method to get currently executing assembly path
+            </summary>
+            <returns>Path to the assembly</returns>
+        </member>
+        <member name="M:ScreenshotTaker.Taker.DeleteScreenshots(System.String)">
+            <summary>
+            Method to clean folder with screenshots
+            </summary>
+        </member>
+        <member name="M:ScreenshotTaker.Taker.TakeScreenshot(System.String,System.String)">
+            <summary>
+            Method to take screenshot from primary screen and save it into the folder
+            </summary>
+        </member>
+    </members>
+</doc>
